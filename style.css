@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clock {
+    width: 600px;
+    height: 500px;
+    background-color: red;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    border-radius: 50%;
+}
+.numbers {
+    position: absolute;
+    right: 50%;
+}
+.number1 {
+    transform: rotate(30deg);
+}
